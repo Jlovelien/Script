@@ -15,20 +15,20 @@ I would also like to take more time to focus on the UI or UX of the app. While i
 **How to change the project to make it more interesting?**
 
 The next logical steps to improve this application would be:
--Adding the reporting suite (said in the Optional features)
+- Adding the reporting suite (said in the Optional features)
 
--Add a mapping feature. Making it easy to go from picking up to delivery without much interaction with the app.
+- Add a mapping feature. Making it easy to go from picking up to delivery without much interaction with the app.
 
--The end-user getting a tracking feature. Ideally setting up an ETA either using the drivers mapping feature or using a “number of stops” away tracking.
+- The end-user getting a tracking feature. Ideally setting up an ETA either using the drivers mapping feature or using a “number of stops” away tracking.
 
--A notification system. Emails and text notifications for the end-user and the couriers.
+- A notification system. Emails and text notifications for the end-user and the couriers.
 
--Potential a courier rating system? This could be more used internally as a way of auditing them.
+- Potential a courier rating system? This could be more used internally as a way of auditing them.
 
--Adding a user history and notes to assist the couriers
+- Adding a user history and notes to assist the couriers
 
--A more advanced feature would be to be able to refill prescriptions directly within the app. This would make the process of ordering and having it delivered reduced to a single click.
+- A more advanced feature would be to be able to refill prescriptions directly within the app. This would make the process of ordering and having it delivered reduced to a single click.
 
-	-For prescriptions that are eligible for refill without a doctor’s authorization, the user would see a button that says “Refill”
+	- For prescriptions that are eligible for refill without a doctor’s authorization, the user would see a button that says “Refill”
 
-	-For prescriptions that require a doctor’s authorization, or have extended past the refill period, the user would have an option to fill in their doctor’s contact information to display a button that says “Call my Doctor”
+	- For prescriptions that require a doctor’s authorization, or have extended past the refill period, the user would have an option to fill in their doctor’s contact information to display a button that says “Call my Doctor”
