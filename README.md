@@ -32,3 +32,6 @@ The next logical steps to improve this application would be:
 	- For prescriptions that are eligible for refill without a doctor’s authorization, the user would see a button that says “Refill”
 
 	- For prescriptions that require a doctor’s authorization, or have extended past the refill period, the user would have an option to fill in their doctor’s contact information to display a button that says “Call my Doctor”
+
+**Link to a screen capture of the app**
+[Click here to view](https://www.youtube.com/watch?v=I_qF2i-ZDIQ&t=1s)
