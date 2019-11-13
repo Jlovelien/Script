@@ -28,5 +28,7 @@ The next logical steps to improve this application would be:
 -Adding a user history and notes to assist the couriers
 
 -A more advanced feature would be to be able to refill prescriptions directly within the app. This would make the process of ordering and having it delivered reduced to a single click.
+
 	-For prescriptions that are eligible for refill without a doctor’s authorization, the user would see a button that says “Refill”
+
 	-For prescriptions that require a doctor’s authorization, or have extended past the refill period, the user would have an option to fill in their doctor’s contact information to display a button that says “Call my Doctor”
