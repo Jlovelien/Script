@@ -1,0 +1,44 @@
+<div class="tagline">
+  <h1>Please login below</h1>
+</div>
+
+<div class="action-boxes">
+
+  <div class="card login">
+  <%= form_for @conn, page_path(@conn, :login_user), [as: :credentials], fn f -> %>
+  <%= text_input f, :username, placeholder: "Username" %>
+  <%= text_input f, :password, placeholder: "Password", type: "password" %>
+
+  <%= submit "Log in", class: "login" %>
+<% end %>
+  </div>
+
+
+  
+
+  <div class="card signup">
+  <h5>
+      Sign up!
+  </h5>
+
+  <%= form_for @user_changeset, page_path(@conn, :create_user), fn f -> %>
+
+    
+    <%= text_input f, :email, placeholder: "Email" %>
+    <%= error_tag f, :email %>
+
+    <%= text_input f, :username, placeholder: "Username" %>
+    <%= error_tag f, :username %> 
+
+    <%= text_input f, :password, placeholder: "Password", type: "password" %>
+    <%= error_tag f, :password %> 
+
+    <%= text_input f, :type, placeholder: "Type" %>
+    <%= error_tag f, :type %> 
+
+    <%= submit "Sign up", class: "signup" %>
+
+  <% end %>
+
+</div>
+</div>

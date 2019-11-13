@@ -1,0 +1,12 @@
+<header>
+
+  <%= if logged_in?(@conn) do %>
+    <div class="profile-container">
+      <p>Hello <%= username(@conn) %>!</p>
+    </div>
+    <%= link "Log out", to: page_path(@conn, :logout) %>
+  <% else %>
+    <%= link "Log in", to: page_path(@conn, :login) %>
+  <% end %>
+
+</header>

@@ -1,0 +1,33 @@
+<h2>Show Order</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @order.name %>
+  </li>
+
+  <li>
+    <strong>Adress:</strong>
+    <%= @order.adress %>
+  </li>
+
+  <li>
+    <strong>Pickup:</strong>
+    <%= @order.pickup %>
+  </li>
+
+  <li>
+    <strong>Courier:</strong>
+    <%= @order.courier %>
+  </li>
+
+  <li>
+    <strong>Delivered:</strong>
+    <%= @order.delivered %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: order_path(@conn, :edit, @order) %></span>
+<span><%= link "Back", to: order_path(@conn, :index) %></span>

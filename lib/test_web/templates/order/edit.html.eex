@@ -1,0 +1,7 @@
+<h2>Edit Order</h2>
+
+<%= render "form.html", Map.put(assigns, :action, order_path(@conn, :update, @order)) %>
+
+<form>
+  <input type="button" value="Go back!" onclick="history.back()">
+</form>
