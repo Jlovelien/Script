@@ -41,4 +41,16 @@ The next logical steps to improve this application would be:
 - Create a user: Email: test1@gmail.com	Username: Same Day	Password:test1	Type:courier
 - Create a user: Email: test2@gmail.com	Username: Previous Day	Password:test2	Type:courier
 - Log in: Username: BetterRx	Password:test
-- 
+- Add new order: 
+	- Click "New Order"
+	- Enter in info: Name:John	Adress:123 Test Rd.	Pickup:11/14/2019	Courier:Same Day	Delivered:0
+- Go back to the /pharmacy page, refresh to get updated info (this needs changed)
+- Add new order: 
+	- Click "New Order"
+	- Enter in info: Name:Jane	Adress:456 Test Rd.	Pickup:11/14/2019	Courier:Previous Day	Delivered:0
+- Log out in the header
+- Sign in: Username: Same Day	Password:test1
+- Mark your delivery as delivered
+	- Click edit
+	- Change Delivered from "0" to "1"
+- When you go back and refresh you will have completed all your orders
