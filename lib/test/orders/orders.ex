@@ -28,7 +28,7 @@ defmodule Test.Orders do
     u = to_string(username)
 
     ## This is used to set the start and end of the current day
-    ## I think there is a better way. But this works for now.
+    ## I think there is a better way. But this works for now
     today = Date.utc_today()
     year = today.year
     month = today.month
