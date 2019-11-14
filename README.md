@@ -44,12 +44,12 @@ The next logical steps to improve this application would be:
 - Add new order: 
 	- Click "New Order"
 	- Enter in info: 
-	- Name:John	Adress:123 Test Rd.	Pickup:11/14/2019	Courier:Same Day	Delivered:0
+	- Name:"John:	Adress:"123 Test Rd."	Pickup:"11/14/2019"	Courier:"Same Day"	Delivered:"0"
 - Go back to the /pharmacy page, refresh to get updated info (this needs changed)
 - Add new order: 
 	- Click "New Order"
 	- Enter in info: 
-	- Name:Jane	Adress:456 Test Rd.	Pickup:11/14/2019	Courier:Previous Day	Delivered:0
+	- Name:"Jane"	Adress:"456 Test Rd."	Pickup:"11/14/2019"	Courier:"Previous Day"	Delivered:"0"
 - Log out in the header
 - Sign in: Username: Same Day	Password:test1
 - Mark your delivery as delivered
