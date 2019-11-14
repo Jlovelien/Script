@@ -40,7 +40,7 @@ The next logical steps to improve this application would be:
 - Create a user: Email: test@gmail.com	Username: BetterRx	Password:test	Type:pharmacy
 - Create a user: Email: test1@gmail.com	Username: Same Day	Password:test1	Type:courier
 - Create a user: Email: test2@gmail.com	Username: Previous Day	Password:test2	Type:courier
-- Log in: Username: BetterRx	Password:test
+- Log in as a Pharmacist: Username: BetterRx	Password:test
 - Add new order: 
 	- Click "New Order"
 	- Enter in info: 
@@ -52,8 +52,8 @@ The next logical steps to improve this application would be:
 	- Name:"Jane"	Adress:"456 Test Rd."	Pickup:"11/14/2019"	Courier:"Previous Day"	Delivered:"0"
 - Click "Cancel Order" to remove and existing order from the couier
 - Log out in the header
-- Sign in: Username: Same Day	Password:test1
-- Mark your delivery as delivered
+- Sign in as a Courier: Username: Same Day	Password:test1
+- Mark your Order as delivered
 	- Click edit
 	- Change Delivered from "0" to "1"
 - When you go back and refresh you will have completed all your orders
