@@ -35,3 +35,10 @@ The next logical steps to improve this application would be:
 
 **Link to a screen capture of the app**
 [Click here to view](https://www.youtube.com/watch?v=I_qF2i-ZDIQ&t=1s)
+
+**Steps to follow to mimic video**
+- Create a user: Email: test@gmail.com	Username: BetterRx	Password:test	Type:pharmacy
+- Create a user: Email: test1@gmail.com	Username: Same Day	Password:test1	Type:courier
+- Create a user: Email: test2@gmail.com	Username: Previous Day	Password:test2	Type:courier
+- Log in: Username: BetterRx	Password:test
+- 
