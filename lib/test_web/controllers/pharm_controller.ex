@@ -15,6 +15,7 @@ defmodule TestWeb.PharmController do
       render conn, orders1: orders1
     end
 
+    ## Should redirect and flash the error message when trying to accsess page when not signed in
     def auth_error(conn, {_type, _reason}, _opts) do
         conn
         |> put_flash(:error, "You need to log in to view your orders.")

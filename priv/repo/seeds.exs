@@ -16,6 +16,8 @@ alias Test.Pharmacy
 alias Test.Relationship
 alias Test.Orders
 
+## used to seed data into the DB (isn't working)
+
 Repo.insert! %User{
   username: "Previous Day",
   email: "Test@gmail.com",

@@ -40,7 +40,10 @@ defmodule Test.Mixfile do
       {:phoenix_html, "~> 2.10"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
+      ## Had to change cowboy to plug_cowboy to allow the app to even run
       {:plug_cowboy, "~> 1.0"},
+
+      ## Added for login authenticaiton and persistance
       {:guardian, "~> 1.0"},
       {:plug, "~> 1.7"},
       {:timex, "~> 3.6"}

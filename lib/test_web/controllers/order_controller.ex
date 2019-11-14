@@ -65,9 +65,7 @@ defmodule TestWeb.OrderController do
   def username(conn) do
 
     user = Guardian.Plug.current_resource(conn)
-
     %{username: username} = user
-
     username
   end
 end

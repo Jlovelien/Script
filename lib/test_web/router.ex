@@ -25,6 +25,8 @@ defmodule TestWeb.Router do
     get "/login", PageController, :login
     get "/signup", PageController, :signup
     get "/logout", PageController, :logout
+
+    ## Since these pages are not avalible to those not loged in... they have their own controller
     get "/pharmacy", PharmController, :index
     get "/today", PharmController, :today
     get "/courier", CourierController, :index

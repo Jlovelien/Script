@@ -2,7 +2,6 @@ defmodule TestWeb.PageController do
   use TestWeb, :controller
   alias Test.Accounts.Session
   alias Test.Auth.Guardian
-  alias Test.Orders
 
   def index(conn, _params) do
     changeset = Test.Accounts.register_changeset()
@@ -24,14 +23,11 @@ defmodule TestWeb.PageController do
 
 
   def login_user(conn, %{"credentials" => credentials}) do
+    ## Send to Session controller to validate the user and match given PW with the one in the DB
     case Session.authenticate(credentials) do
 
       {:ok,user} ->
-
         %{type: type} = user
-
-
-
         conn
         |> Guardian.Plug.sign_in(user)
         |> redirect(to: "/#{type}")
@@ -47,8 +43,6 @@ defmodule TestWeb.PageController do
   def signup(conn, _params) do
 
     changeset = Accounts.register_changeset()
-
-
     render conn, user_changeset: changeset
   end
 
@@ -66,7 +60,6 @@ defmodule TestWeb.PageController do
   end
 
   def pharmacy(conn, _params) do
-
     render conn
   end
 
