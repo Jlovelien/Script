@@ -16,7 +16,7 @@ alias Test.Pharmacy
 alias Test.Relationship
 alias Test.Orders
 
-## used to seed data into the DB (isn't working)
+## used to seed data into the DB
 
 Repo.insert! %User{
   username: "Previous Day",
